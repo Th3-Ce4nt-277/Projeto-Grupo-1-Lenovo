@@ -1,0 +1,116 @@
+@import url('https://cdn-uicons.flaticon.com/3.0.0/uicons-regular-rounded/css/uicons-regular-rounded.css');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+	font-family: 'Montserrat';
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+	outline: none;
+	list-style: none;
+}
+
+:root {
+	--lenovo-color: #e1251b;
+	--def-transition: all 0.3s ease;
+}
+
+button {
+	cursor: pointer;
+	border: none;
+	background-color: transparent;
+}
+
+header {
+	display: flex;
+	flex-direction: column;
+	box-shadow: 0 0 10px #8e8e8e;
+}
+.header-divisor {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 20px;
+}
+.logolink {
+	height: 40px;
+}
+
+#search-bar {
+	height: 40px;
+	width: 50vw;
+	padding-left: 20px;
+	background-color: #eaeaea;
+	border-radius: 20px;
+	border: 1px solid #757575;
+	font-size: 16px;
+	transition: all 0.3s ease;
+}
+#search-bar:focus {
+	border: 1px solid var(--lenovo-color);
+	background-color: #fff;
+}
+
+.header-btn-actions {
+	display: flex;
+	gap: 20px;
+}
+i {
+	display: flex;
+	align-items: center;
+	font-size: 28px;
+	color: #374856;
+	transition: var(--def-transition);
+}
+i:hover {
+	color: var(--lenovo-color);
+}
+
+.mainNavbar {
+	display: flex;
+	justify-content: space-between;
+}
+
+.mainNavbar ul {
+	display: flex;
+	align-items: center;
+	margin: 0 20px;
+	gap: 20px;
+}
+.mainNavbar li {
+	display: flex;
+	align-items: center;
+}
+
+.mainNavbar a {
+	display: inline-block;
+	position: relative;
+	text-decoration: none;
+	font-weight: 500;
+	color: #000;
+	padding: 10px;
+	height: 48px;
+	text-decoration: none;
+	transition: var(--def-transition);
+}
+.mainNavbar a:hover {
+	color: var(--lenovo-color);
+}
+
+.mainNavbar a::after {
+	content: '';
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	transform: translateX(-50%);
+	width: 0;
+	height: 5px;
+	opacity: 0;
+	background-color: var(--lenovo-color);
+	transition: var(--def-transition);
+}
+
+.mainNavbar a:hover::after {
+	width: 100%;
+	opacity: 1;
+}
