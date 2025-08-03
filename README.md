@@ -3,8 +3,10 @@
 TOTI DIVERSIDADE Projeto Final 
 
 ### 👥 Participantes
-* **Analisse Del Carmen**
-* <a href="https://github.com/Th3-Ce4nt-277/">**Cesar Licera**</a>
-* **Maria Amaya**
-* **Tahimi Bermudez**
-* **Adrian Medina**
+* [**Analisse Del Carmen**](https://github.com/analisser)
+* [**Cesar Licera**](https://github.com/Th3-Ce4nt-277)
+* [**Maria Amaya**](https://github.com/lGabyl)
+* [**Tahimi Bermudez**](https://github.com/tahirocio17)
+* [**Adrian Medina**](https://github.com/medina2402)
+
+### 💻 Tecnologias
