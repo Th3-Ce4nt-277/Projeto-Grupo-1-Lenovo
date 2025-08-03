@@ -8,3 +8,7 @@ TOTI DIVERSIDADE Projeto Final
 * **Maria Amaya**
 * **Tahimi Bermudez**
 * **Adrian Medina**
+* **Dina Rubio**
+
+### Observações:
+* **Emily Rodrigues - Desistiu**
