@@ -1,39 +1,33 @@
-import React from "react"
+import React from 'react';
+import { Link } from 'react-router-dom';
 
 export const NavBar = () => {
-    return (
-        <nav className="mainNavbar">
-            <ul>
-                <li>
-                    <a href="https://www.lenovo.com/br/pt/?Redirect=False">Produtos</a>
-                </li>
-                <li>
-                    <a href="https://www.lenovo.com/br/pt/?Redirect=False">Soluções</a>
-                </li>
-                <li>
-                    <a href="https://www.lenovo.com/br/pt/?Redirect=False">Serviços</a>
-                </li>
-                <li>
-                    <a href="https://www.lenovo.com/br/pt/?Redirect=False">Suporte</a>
-                </li>
-                <li>
-                    <a href="https://www.lenovo.com/br/pt/?Redirect=False">Sobre Lenovo</a>
-                </li>
-                <li>
-                    <a href="https://www.lenovo.com/br/pt/?Redirect=False">Promoções</a>
-                </li>            
-            </ul>
-            <ul>
-                <li>
-                    <a href="https://www.lenovo.com/br/pt/?Redirect=False">Empresas</a>
-                </li>
-                <li>
-                    <a href="https://www.lenovo.com/br/pt/?Redirect=False">Educaçao</a>
-                </li>
-                <li>
-                    <a href="https://www.lenovo.com/br/pt/?Redirect=False">Gaming</a>
-                </li>         
-            </ul>
-        </nav>
-    )
-}
+  return (
+    
+    <nav className="mainNavbar">
+      <ul>
+        <li>
+          <Link to="/produtos">Produtos</Link>
+        </li>
+        <li>
+          <Link to="/solucoes">Soluções</Link>
+        </li>
+        <li>
+          <Link to="/servicos">Serviços</Link>
+        </li>
+        <li>
+          <Link to="/suporte">Suporte</Link>
+        </li>
+      </ul>
+      <ul>
+        <li>
+          <Link to="/gaming">Gaming</Link>
+        </li>
+        {}
+        <li>
+          <Link to="/carrinho">Testar Carrinho</Link>
+        </li>
+      </ul>
+    </nav>
+  );
+};
