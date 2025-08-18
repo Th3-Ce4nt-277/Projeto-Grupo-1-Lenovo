@@ -1,0 +1,58 @@
+[
+  {
+    "id": "yoga-slim-6i",
+    "name": "Notebook Yoga Slim 6i (14″ Intel Evo)",
+    "price": "R$ 6.199,99",
+    "image": "https://p2-ofp.static.pub/fes/cms/2023/02/10/fcl9ko3rxwzr7f5lqxv8z2nmj97pva065618.png",
+    "details": {
+      "processor": "Processador Intel® Core™ i5-1240P de 12ª geração",
+      "os": "Windows 11 Home Single Language 64",
+      "memory": "16 GB LPDDR5-4800MHz",
+      "storage": "512 GB SSD M.2 2242 PCIe Gen4 TLC",
+      "display": "14\" 2.2K (2240 x 1400), IPS, antirreflexo, 300 nits, 100% sRGB",
+      "graphics": "Placa de vídeo Intel® Iris® Xe integrada"
+    }
+  },
+  {
+    "id": "legion-slim-5",
+    "name": "Notebook Legion Slim 5 (16″ AMD)",
+    "price": "R$ 9.899,99",
+    "image": "https://p1-ofp.static.pub/fes/cms/2023/05/18/z5n4r0fxeu32amgvyczvbiaf5qbf66236310.png",
+    "details": {
+      "processor": "Processador AMD Ryzen™ 5 7640HS",
+      "os": "Windows 11 Home Single Language 64",
+      "memory": "16 GB DDR5-5600MHz (2x 8 GB)",
+      "storage": "512 GB SSD M.2 2280 PCIe Gen4 TLC",
+      "display": "16\" WQXGA (2560 x 1600), IPS, antirreflexo, 350 nits, 165Hz",
+      "graphics": "NVIDIA® GeForce RTX™ 4050 6GB GDDR6"
+    }
+  },
+  {
+    "id": "ideapad-1i",
+    "name": "Notebook IdeaPad 1i (15.6” Intel)",
+    "price": "R$ 2.199,99",
+    "image": "https://p4-ofp.static.pub/fes/cms/2022/10/18/f0s99u1qf7v2x8ylpvfzh6y9ah7p53283282.png",
+    "details": {
+      "processor": "Processador Intel® Core™ i3-1215U de 12ª Geração",
+      "os": "Linux",
+      "memory": "4 GB Soldado DDR4-3200MHz",
+      "storage": "256 GB SSD M.2 2242 PCIe Gen4 QLC",
+      "display": "15.6\" HD (1366 x 768), TN, antirreflexo, 220 nits",
+      "graphics": "Placa de vídeo Intel® UHD integrada para processadores Intel® de 12ª Geração"
+    }
+  },
+  {
+    "id": "thinkpad-t14s",
+    "name": "ThinkPad T14s Gen 4 (14″ Intel)",
+    "price": "R$ 13.499,99",
+    "image": "https://p1-ofp.static.pub/fes/cms/2023/05/16/r2x7b7j9zjq2g8r9j0dtj8b7h5m788029315.png",
+    "details": {
+      "processor": "Processador Intel® Core™ i7-1365U vPro® de 13ª Geração",
+      "os": "Windows 11 Pro 64",
+      "memory": "32 GB LPDDR5X-7500MHz",
+      "storage": "1 TB SSD M.2 2280 PCIe Gen4 Performance TLC Opal",
+      "display": "14\" WUXGA (1920 x 1200), IPS, antirreflexo, 400 nits, Touchscreen",
+      "graphics": "Placa de vídeo Intel® Iris® Xe integrada"
+    }
+  }
+]
