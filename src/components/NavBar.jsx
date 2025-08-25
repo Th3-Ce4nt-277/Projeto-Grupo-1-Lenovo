@@ -1,37 +1,38 @@
 import React from "react"
+import { Link } from "react-router-dom";
 
 export const NavBar = () => {
     return (
         <nav className="mainNavbar">
             <ul>
                 <li>
-                    <a href="https://www.lenovo.com/br/pt/?Redirect=False">Produtos</a>
+                    <Link to="/Products">Produtos</Link>
                 </li>
                 <li>
-                    <a href="https://www.lenovo.com/br/pt/?Redirect=False">Soluções</a>
+                    <Link to="/Products">Soluções</Link>
                 </li>
                 <li>
-                    <a href="https://www.lenovo.com/br/pt/?Redirect=False">Serviços</a>
+                    <Link to="/">Serviços</Link>
                 </li>
                 <li>
-                    <a href="https://www.lenovo.com/br/pt/?Redirect=False">Suporte</a>
+                    <Link to="/">Suporte</Link>
                 </li>
                 <li>
-                    <a href="https://www.lenovo.com/br/pt/?Redirect=False">Sobre Lenovo</a>
+                    <Link to="/">Sobre Nos</Link>
                 </li>
                 <li>
-                    <a href="https://www.lenovo.com/br/pt/?Redirect=False">Promoções</a>
+                    <Link to="/">Promoções</Link>
                 </li>            
             </ul>
             <ul>
                 <li>
-                    <a href="https://www.lenovo.com/br/pt/?Redirect=False">Empresas</a>
+                    <Link to="/">Empresas</Link>
                 </li>
                 <li>
-                    <a href="https://www.lenovo.com/br/pt/?Redirect=False">Educaçao</a>
+                    <Link to="/">Educaçao</Link>
                 </li>
                 <li>
-                    <a href="https://www.lenovo.com/br/pt/?Redirect=False">Gaming</a>
+                    <Link to="/">Gaming</Link>
                 </li>         
             </ul>
         </nav>
