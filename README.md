@@ -8,13 +8,6 @@ TOTI DIVERSIDADE Projeto Final
 
 ### [<u>**toti-g1-lenovo.vercel.app**</u>](https://toti-g1-lenovo.vercel.app)
 
-## 👥 Participantes
-
--   [**Analisse Del Carmen**](https://github.com/analisser)
--   [**Cesar Licera**](https://github.com/Th3-Ce4nt-277)
--   [**Maria Amaya**](https://github.com/lGabyl)
--   [**Adrian Medina**](https://github.com/medina2402)
-
 ## 💾 Tecnologias
 
 ![HTML](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
@@ -31,3 +24,36 @@ TOTI DIVERSIDADE Projeto Final
 ![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
 
 ## 📷 Capturas de tela
+
+## 📃 Clonar o repositório
+
+Clone o repositório em sua pasta
+
+```
+$ git clone https://github.com/Th3-Ce4nt-277/Projeto-Grupo-1-Lenovo.git
+```
+
+instalar dependências do projeto
+
+```
+$ npm i
+```
+
+Inicie o projeto
+
+```
+$ npm start
+```
+
+Inicie a API
+
+```
+$ npx json-server -p3500 -w data/database.json
+```
+
+## 👥 Participantes
+
+-   [**Analisse Del Carmen**](https://github.com/analisser)
+-   [**Cesar Licera**](https://github.com/Th3-Ce4nt-277)
+-   [**Maria Amaya**](https://github.com/lGabyl)
+-   [**Adrian Medina**](https://github.com/medina2402)
