@@ -1,0 +1,244 @@
+@import url('https://cdn-uicons.flaticon.com/3.0.0/uicons-regular-rounded/css/uicons-regular-rounded.css');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+	font-family: 'Montserrat';
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+	outline: none;
+	list-style: none;
+}
+
+:root {
+	--lenovo-color: #e1251b;
+	--def-transition: all 0.3s ease;
+}
+
+button {
+	cursor: pointer;
+	border: none;
+	background-color: transparent;
+}
+
+.App {
+	max-width: 100vw;
+	max-width: 100vw;
+}
+
+header.main {
+	display: flex;
+	flex-direction: column;
+	box-shadow: 0 0 10px #000000b0;
+	position: relative;
+}
+.header-divisor {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 20px;
+}
+.logolink {
+	height: 40px;
+}
+
+#search-bar {
+	height: 40px;
+	width: 50vw;
+	padding-left: 20px;
+	background-color: #eaeaea;
+	border-radius: 20px;
+	border: 1px solid #757575;
+	font-size: 16px;
+	transition: all 0.3s ease;
+	transition: background-color 0.3s ease;
+}
+#search-bar:focus {
+	border: 1px solid var(--lenovo-color);
+	background-color: #fff;
+}
+
+.header-btn-actions {
+	display: flex;
+	gap: 20px;
+}
+i {
+	display: flex;
+	align-items: center;
+	font-size: 28px;
+	color: #374856;
+	transition: var(--def-transition);
+}
+i:hover {
+	color: var(--lenovo-color);
+}
+
+.mainNavbar {
+	display: flex;
+	justify-content: space-between;
+}
+
+.mainNavbar ul {
+	display: flex;
+	align-items: center;
+	margin: 0 20px;
+	gap: 20px;
+}
+.mainNavbar li {
+	display: flex;
+	align-items: center;
+}
+
+.mainNavbar a {
+	display: inline-block;
+	position: relative;
+	font-weight: 500;
+	color: #000;
+	padding: 10px;
+	height: 48px;
+	text-decoration: none;
+	transition: var(--def-transition);
+}
+.mainNavbar a:hover {
+	color: var(--lenovo-color);
+}
+
+.mainNavbar a::after {
+	content: '';
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	transform: translateX(-50%);
+	width: 0;
+	height: 5px;
+	opacity: 0;
+	background-color: var(--lenovo-color);
+	transition: var(--def-transition);
+}
+
+.mainNavbar a:hover::after {
+	width: 100%;
+	opacity: 1;
+}
+
+/*		*/
+.cart {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: calc(100vh - 132px);
+}
+.cartItems {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 0 40px;
+	width: 75vw;
+	height: 100%;
+}
+.cartItems .header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 100%;
+	height: 100px;
+	border-bottom: 2px solid #ccc;
+}
+
+.cartOrder {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+	padding: 0 30px;
+	background-color: #eeeeee;
+	width: 25vw;
+	height: 100%;
+}
+
+.cartOrder h2 {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	height: 100px;
+	border-bottom: 2px solid #ccc;
+}
+
+.cartOrder section {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	margin: 15px 0;
+}
+.txtPromo {
+	height: 48px;
+	border: none;
+	padding: 20px;
+	margin-top: 10px;
+	font-size: 15px;
+}
+
+.btnBuy {
+	background-color: var(--lenovo-color);
+	color: #fff;
+	padding: 15px;
+	font-weight: 600;
+	text-align: center;
+	font-size: 16px;
+	width: 100%;
+	margin-bottom: 30px;
+	transition: var(--def-transition);
+}
+
+#menuBurguer {
+	display: none;
+	cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+	#menuBurguer {
+		display: block;
+	}
+	.header-divisor {
+		flex-direction: column;
+		align-items: center;
+	}
+	#search-bar {
+		width: 80vw;
+		margin-top: 10px;
+	}
+	.mainNavbar ul {
+		display: none;
+	}
+
+	.header-btn-actions {
+		display: none;
+	}
+}
+
+.productContainer {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 20px;
+	padding: 20px;
+	width: 100%;
+	background-color: #f1f1f1;
+}
+
+.categoriesContainer {
+	display: flex;
+	overflow-x: auto;
+	gap: 10px;
+	padding: 10px 20px;
+	margin: 10px 0;
+	justify-content: space-between;
+	width: 100%;
+}
+
+.categoryButton {
+	background-color: #ececec;
+	border-radius: 60px;
+	padding: 10px;
+}
