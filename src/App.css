@@ -242,3 +242,71 @@ i:hover {
 	border-radius: 60px;
 	padding: 10px;
 }
+
+/*
+
+		--- IGNORE ---
+
+*/
+
+.account {
+	display: flex;
+	height: calc(100vh - 132px);
+	overflow: hidden;
+	box-sizing: border-box;
+}
+.account form {
+	display: flex;
+	flex-direction: column;
+	width: 50vw;
+	padding: 5% 12%;
+}
+.account form div {
+	position: relative;
+	height: 48px;
+	margin-bottom: 32px;
+}
+.account form div i {
+	width: 24px;
+	position: relative;
+	margin: 10px;
+	left: 3px;
+	bottom: 45px;
+	font-size: 23px;
+	color: #757575;
+}
+.account form input {
+	width: 388px;
+	height: 48px;
+	padding-left: 48px;
+	font-weight: 500;
+	font-size: 18px;
+	border: 2px solid #757575;
+	border-radius: 8px;
+	transition: var(--def-transition);
+}
+.account form input:focus + i {
+	color: var(--lenovo-color);
+}
+.account form input:focus {
+	border: 2px solid var(--lenovo-color);
+	box-shadow: 0 0 0 3px #e1251b92;
+}
+.account form button {
+	width: 100%;
+	height: 48px;
+	background-color: var(--lenovo-color);
+	color: #fff;
+	font-size: 18px;
+	font-weight: 600;
+	border-radius: 8px;
+	transition: var(--def-transition);
+}
+.account-image {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: calc(100vh - 132px);
+	width: 50vw;
+	overflow: hidden;
+}

@@ -512,8 +512,8 @@
 		{
 			"id": 0,
 			"name": "John Doe",
-			"email": "",
-			"password": ""
+			"email": "admin",
+			"password": "admin"
 		}
 	],
 	"carts": [
