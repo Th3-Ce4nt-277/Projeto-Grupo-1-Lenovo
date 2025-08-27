@@ -48,7 +48,7 @@ $ npm start
 Inicie a API
 
 ```
-$ npx json-server -p 3500 -w data/database.json
+$ npx json-server -p3500 -w data/database.json
 ```
 
 ## 👥 Participantes
