@@ -21,6 +21,11 @@ button {
 	background-color: transparent;
 }
 
+.App {
+	max-width: 100vw;
+	max-width: 100vw;
+}
+
 header.main {
 	display: flex;
 	flex-direction: column;
@@ -184,53 +189,6 @@ i:hover {
 	width: 100%;
 	margin-bottom: 30px;
 	transition: var(--def-transition);
-}
-
-.product-card {
-	width: 300px;
-	border: 1px solid #ddd;
-	border-radius: 8px;
-	padding: 16px;
-	text-align: center;
-	cursor: pointer;
-	background-color: #fff;
-	box-shadow: 0 2px 5px #0000001a;
-	transition: box-shadow 0.3s ease;
-	margin: 20px;
-}
-
-.product-card:hover {
-	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-}
-
-.addToCart {
-	display: flex;
-	justify-content: space-between;
-	width: 100%;
-	background-color: var(--lenovo-color);
-	color: #fff;
-	border: none;
-	padding: 10px 30px;
-	border-radius: 4px;
-	font-size: 16px;
-	cursor: pointer;
-	transition: background-color 0.3s ease;
-	margin-top: 10px;
-}
-.addToCart:hover {
-	background-color: #b71c1a;
-}
-.addToCart i {
-	color: #fff;
-	font-size: 16px;
-}
-
-.product-card p {
-	font-size: 18px;
-	font-weight: 500;
-	color: #333;
-	margin: 10px 0;
-	text-align: left;
 }
 
 #menuBurguer {
