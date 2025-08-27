@@ -1,0 +1,535 @@
+{
+	"products": [
+		{
+			"id": 0,
+			"name": "Lenovo Legion Pro 7i Gen 8",
+			"price": 15000,
+			"category": 0,
+			"images": [
+				"https://m.media-amazon.com/images/I/61NqDJ3heFL._UF894,1000_QL80_.jpg",
+				"https://i.imgur.com/G35LwXg.jpeg",
+				"https://i.imgur.com/H1zQxP3.jpeg"
+			],
+			"features": {
+				"processor": "Intel Core i9-13900HX",
+				"ram": "32GB DDR5 5600MHz",
+				"gpu": "NVIDIA GeForce RTX 4080 12GB",
+				"storage": "1TB PCIe Gen4 SSD",
+				"display": "16\" WQXGA (2560 x 1600) IPS, 240Hz, 500 nits",
+				"battery": "99.9 Wh",
+				"ports": "1x USB-C (Thunderbolt 4), 3x USB-A 3.2, HDMI 2.1, Ethernet (RJ45), 3.5mm audio jack"
+			}
+		},
+		{
+			"id": 1,
+			"name": "Lenovo Yoga 9i Gen 8",
+			"price": 9500,
+			"category": 0,
+			"images": [
+				"https://p1-ofp.static.pub/fes/cms/2023/03/31/gvsj3nzylfhjg927kv8jrsek91nle6465641.png",
+				"https://i.imgur.com/M6q0n1w.jpeg",
+				"https://i.imgur.com/D4sT0x4.jpeg"
+			],
+			"features": {
+				"processor": "Intel Core i7-1360P",
+				"ram": "16GB LPDDR5X",
+				"gpu": "Intel Iris Xe Graphics",
+				"storage": "512GB PCIe Gen4 SSD",
+				"display": "14\" 2.8K (2880 x 1800) OLED, 90Hz, 400 nits",
+				"battery": "75 Wh",
+				"ports": "2x Thunderbolt 4, 1x USB-A 3.2, 1x USB-C 3.2, 3.5mm audio jack"
+			}
+		},
+		{
+			"id": 2,
+			"name": "Lenovo ThinkPad X1 Carbon Gen 11",
+			"price": 12000,
+			"category": 0,
+			"images": [
+				"https://platincdn.com/466/pictures/LUPVBWYJNV10162024102756_lenovo-thinkpad-x1-carbon-gen-11-21hm-01.jpg",
+				"https://i.imgur.com/M6q0n1w.jpeg",
+				"https://i.imgur.com/D4sT0x4.jpeg"
+			],
+			"features": {
+				"processor": "Intel Core i7-1355U",
+				"ram": "16GB LPDDR5",
+				"gpu": "Intel Iris Xe Graphics",
+				"storage": "1TB PCIe Gen4 SSD",
+				"display": "14\" WUXGA (1920 x 1200) IPS, 60Hz, 400 nits",
+				"battery": "57 Wh",
+				"ports": "2x Thunderbolt 4, 2x USB-A 3.2, HDMI 2.1, 3.5mm audio jack, Nano-SIM slot"
+			}
+		},
+		{
+			"id": 3,
+			"name": "Lenovo IdeaPad Gaming 3",
+			"price": 5500,
+			"category": 0,
+			"images": [
+				"https://i5.walmartimages.com/seo/Lenovo-ideapad-Gaming-3-Laptop-15-6-FHD-1920x1080-AMD-Ryzen-5-5600H-8-GB-RAM-256GB-SSD-NVIDIA-GeForce-GTX-1650-Windows-10_c019d46d-e2f8-4d1f-998e-92c1f346d706.40870377423c43af19b5b38df35ba919.jpeg",
+				"https://i.imgur.com/K8r0w2q.jpeg",
+				"https://i.imgur.com/S9t0t2s.jpeg"
+			],
+			"features": {
+				"processor": "AMD Ryzen 7 7735HS",
+				"ram": "16GB DDR5",
+				"gpu": "NVIDIA GeForce RTX 4050 6GB",
+				"storage": "512GB PCIe Gen4 SSD",
+				"display": "15.6\" FHD (1920 x 1080) IPS, 120Hz, 250 nits",
+				"battery": "60 Wh",
+				"ports": "1x USB-C 3.2, 2x USB-A 3.2, HDMI 2.0, Ethernet (RJ45), 3.5mm audio jack"
+			}
+		},
+		{
+			"id": 4,
+			"name": "Lenovo Slim 7 Pro X",
+			"price": 8000,
+			"category": 0,
+			"images": [
+				"https://m.media-amazon.com/images/I/51-NZahcgaL.jpg",
+				"https://i.imgur.com/R8q0w4u.jpeg",
+				"https://i.imgur.com/U9x0w5w.jpeg"
+			],
+			"features": {
+				"processor": "AMD Ryzen 9 6900HS Creator Edition",
+				"ram": "32GB LPDDR5",
+				"gpu": "NVIDIA GeForce RTX 3050 4GB",
+				"storage": "1TB PCIe Gen4 SSD",
+				"display": "14.5\" 3K (3072 x 1920) IPS, 120Hz, 400 nits",
+				"battery": "70 Wh",
+				"ports": "2x USB-C 3.2, 1x USB-A 3.2, 3.5mm audio jack"
+			}
+		},
+		{
+			"id": 5,
+			"name": "Dell XPS Desktop",
+			"price": 11500,
+			"category": 1,
+			"images": [
+				"https://i.dell.com/is/image/DellContent/content/dam/ss2/product-images/dell-client-products/desktops/xps-desktops/xps-8960-tracer/media-gallery/black/xs8960-csy-00015rf-bk.psd?fmt=pjpg&pscan=auto&scl=1&wid=2189&hei=3377&qlt=100,1&resMode=sharp2&size=2189,3377&chrss=full&imwidth=5000",
+				"https://i.imgur.com/G35LwXg.jpeg",
+				"https://i.imgur.com/H1zQxP3.jpeg"
+			],
+			"features": {
+				"processor": "Intel Core i9-13900K",
+				"ram": "32GB DDR5 4800MHz",
+				"gpu": "NVIDIA GeForce RTX 4070 Ti 12GB",
+				"storage": "1TB PCIe NVMe SSD + 2TB HDD",
+				"ports": "1x USB-C 3.2 Gen 2, 1x USB-A 3.2 Gen 1, 4x USB-A 2.0, DisplayPort 1.4, HDMI 2.1",
+				"os": "Windows 11 Home"
+			}
+		},
+		{
+			"id": 6,
+			"name": "HP Omen 45L Gaming Desktop",
+			"price": 14000,
+			"category": 1,
+			"images": [
+				"https://www.hp.com/wcsstore/hpusstore/Treatment/mdps/Q2FY22_OMEN45L/hero_45l_3.png",
+				"https://i.imgur.com/R8q0w4u.jpeg",
+				"https://i.imgur.com/U9x0w5w.jpeg"
+			],
+			"features": {
+				"processor": "AMD Ryzen 9 7900X",
+				"ram": "64GB DDR5 5200MHz",
+				"gpu": "NVIDIA GeForce RTX 4080 16GB",
+				"storage": "2TB PCIe NVMe SSD",
+				"ports": "2x USB-C, 4x USB-A, 1x HDMI 2.1, 3x DisplayPort 1.4, Ethernet (RJ-45)",
+				"os": "Windows 11 Pro"
+			}
+		},
+		{
+			"id": 7,
+			"name": "Dell Inspiron Desktop",
+			"price": 4500,
+			"category": 1,
+			"images": [
+				"https://i.dell.com/is/image/DellContent/content/dam/ss2/product-images/dell-client-products/desktops/inspiron-desktops/inspiron-3020/media-gallery/desktop-inspiron-3020-noodd-nomcr-gallery-7.psd?fmt=png-alpha&pscan=auto&scl=1&hei=320&wid=249&qlt=100,1&resMode=sharp2&size=249,320&chrss=full",
+				"https://i.imgur.com/qE4pS8k.jpeg",
+				"https://i.imgur.com/j8nQ1wA.jpeg"
+			],
+			"features": {
+				"processor": "Intel Core i5-12400",
+				"ram": "16GB DDR4 3200MHz",
+				"gpu": "Intel UHD Graphics 730",
+				"storage": "512GB PCIe NVMe SSD",
+				"ports": "2x USB-A 3.2 Gen 1, 2x USB-A 2.0, HDMI 1.4b, Ethernet (RJ-45)",
+				"os": "Windows 11 Home"
+			}
+		},
+		{
+			"id": 8,
+			"name": "HP Pavilion Gaming Desktop",
+			"price": 6000,
+			"category": 1,
+			"images": [
+				"https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQc58Rv4crTWlObYhD-Dttg3oRmRf2XDxLMsRZIdzSC-5YgJDLt1FdKM-kpxTsbxOOdme35AYKN5Dj1iEdbxJwyIiMRha5hnQCb6wjVwz2EO9fQ2th9tWN2UoMBVgDVBw&usqp=CAc.png",
+				"https://i.imgur.com/K8r0w2q.jpeg",
+				"https://i.imgur.com/S9t0t2s.jpeg"
+			],
+			"features": {
+				"processor": "AMD Ryzen 5 5600G",
+				"ram": "16GB DDR4 3200MHz",
+				"gpu": "NVIDIA GeForce RTX 3060 12GB",
+				"storage": "1TB PCIe NVMe SSD",
+				"ports": "1x USB-C, 2x USB-A 3.2 Gen 1, 4x USB-A 2.0, HDMI 2.1, DisplayPort 1.4",
+				"os": "Windows 11 Home"
+			}
+		},
+		{
+			"id": 9,
+			"name": "Dell OptiPlex 7010 Tower",
+			"price": 7500,
+			"category": 1,
+			"images": [
+				"https://i.dell.com/is/image/DellContent/content/dam/ss2/product-images/dell-client-products/desktops/dell/ebt2250/mg/black/desktop-tower-ebt2250-c-black-gallery-1.psd?fmt=png-alpha&pscan=auto&scl=1&hei=402&wid=312&qlt=100,1&resMode=sharp2&size=312,402&chrss=full",
+				"https://i.imgur.com/h9D7vXg.jpeg",
+				"https://i.imgur.com/u0fE4nL.jpeg"
+			],
+			"features": {
+				"processor": "Intel Core i7-13700",
+				"ram": "32GB DDR5 4800MHz",
+				"gpu": "Intel UHD Graphics 770",
+				"storage": "1TB PCIe NVMe SSD",
+				"ports": "1x USB-C 3.2 Gen 2, 4x USB-A 3.2 Gen 1, 4x USB-A 2.0, 2x DisplayPort 1.4, HDMI 2.1",
+				"os": "Windows 11 Pro"
+			}
+		},
+		{
+			"id": 10,
+			"name": "Samsung Galaxy S24 Ultra",
+			"price": 12999,
+			"category": 2,
+			"images": [
+				"https://http2.mlstatic.com/D_NQ_NP_990564-MLU77368353253_072024-O.webp",
+				"https://i.imgur.com/r6Tq4jU.jpeg",
+				"https://i.imgur.com/a9Jz3yN.jpeg"
+			],
+			"features": {
+				"processor": "Qualcomm Snapdragon 8 Gen 3 for Galaxy",
+				"ram": "12GB",
+				"storage": "512GB",
+				"camera_rear": "200MP (principal) + 50MP (telephoto 5x) + 10MP (telephoto 3x) + 12MP (ultra-wide)",
+				"camera_front": "12MP",
+				"display": "6.8\" Dynamic AMOLED 2X, QHD+ (3120 x 1440), 120Hz adaptável",
+				"battery": "5000 mAh, 45W carregamento rápido"
+			}
+		},
+		{
+			"id": 11,
+			"name": "iPhone 16 Pro Max",
+			"price": 14999,
+			"category": 2,
+			"images": [
+				"https://m.media-amazon.com/images/I/61SndXmTWoL._UF1000,1000_QL80_.jpg",
+				"https://i.imgur.com/J4pZ2hU.jpeg",
+				"https://i.imgur.com/L7rM3kO.jpeg"
+			],
+			"features": {
+				"processor": "Apple A18 Pro",
+				"ram": "8GB",
+				"storage": "256GB",
+				"camera_rear": "48MP (principal) + 12MP (telephoto 5x) + 12MP (ultra-wide)",
+				"camera_front": "12MP",
+				"display": "6.9\" Super Retina XDR, ProMotion 120Hz",
+				"battery": "Não especificada, mas com autonomia de até 29 horas de reprodução de vídeo"
+			}
+		},
+		{
+			"id": 12,
+			"name": "Xiaomi 14 Ultra",
+			"price": 10999,
+			"category": 2,
+			"images": [
+				"https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQwlSLpC1BJOWF8glBkMztKuyZYA5eQG79Vontvc4nWueLrs_fxIoyXWzKU9VAYCew91vtWpj02qwWhd4z00H34OrJDFpEfpNWRFatQ5q0ZmDvv7h8m5j6WifuLL1J2DUhbJJyRU0IGSLo&usqp=CAc.png",
+				"https://i.imgur.com/K8jL2fW.jpeg",
+				"https://i.imgur.com/H1gT5qE.jpeg"
+			],
+			"features": {
+				"processor": "Qualcomm Snapdragon 8 Gen 3",
+				"ram": "16GB",
+				"storage": "512GB",
+				"camera_rear": "Sistema de câmera Leica com 50MP (principal) + 50MP (telephoto 3.2x) + 50MP (telephoto 5x) + 50MP (ultra-wide)",
+				"camera_front": "32MP",
+				"display": "6.73\" LTPO AMOLED, WQHD+ (3200 x 1440), 120Hz adaptável",
+				"battery": "5000 mAh, 90W carregamento rápido"
+			}
+		},
+		{
+			"id": 13,
+			"name": "Samsung Galaxy A55 5G",
+			"price": 2999,
+			"category": 2,
+			"images": [
+				"https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcS6jASZ2ciSPY8sOBOSbimu5EFdwlCHuaO7ukG-WCEnuxhELvgx06AHrFU1bCziCO8Ch8pq5wC7wsPMOwirX6S5vwoFdeKLev6oyCf2mPvdtwZ6P7kpZB18edfm569NRyp3fyeCRQ&usqp=CAc.png",
+				"https://i.imgur.com/zT8b5xU.jpeg",
+				"https://i.imgur.com/P4wQ1zK.jpeg"
+			],
+			"features": {
+				"processor": "Exynos 1480",
+				"ram": "8GB",
+				"storage": "256GB",
+				"camera_rear": "50MP (principal) + 12MP (ultra-wide) + 5MP (macro)",
+				"camera_front": "32MP",
+				"display": "6.6\" Super AMOLED, FHD+ (1080 x 2340), 120Hz",
+				"battery": "5000 mAh, 25W carregamento rápido"
+			}
+		},
+		{
+			"id": 14,
+			"name": "Xiaomi Redmi Note 13 Pro 5G",
+			"price": 2499,
+			"category": 2,
+			"images": [
+				"https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcTPeCrhW5A6PrYxhCLiOLP8YtGHsj6vTf31yKbAkpvJ5ZJkgFy79wA3cpT5h7zZFJ_ZTgLm_g3xtf23k003oZSCtsnwmZ9vMBUtVrLsKDL5TJTOjLKUoxtRrHWyf2hcd4S_wpLCXA&usqp=CAc.png",
+				"https://i.imgur.com/dM2h7jQ.jpeg",
+				"https://i.imgur.com/aE5j4fX.jpeg"
+			],
+			"features": {
+				"processor": "Qualcomm Snapdragon 7s Gen 2",
+				"ram": "8GB",
+				"storage": "256GB",
+				"camera_rear": "200MP (principal) + 8MP (ultra-wide) + 2MP (macro)",
+				"camera_front": "16MP",
+				"display": "6.67\" AMOLED, 1.5K (2712 x 1220), 120Hz",
+				"battery": "5100 mAh, 67W carregamento turbo"
+			}
+		},
+		{
+			"id": 15,
+			"name": "iPad Pro (M4)",
+			"price": 10999,
+			"category": 3,
+			"images": [
+				"https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcRa6AEybryUEGeGW9Sw7NbNos72bumeWWFoH97_BqOAjDOduP9Oe6pOYFCTVCOv-aQrDd_2FBvIv5gaflr2wZJyidTYIm1dksM0vLGwmlaIhEBYN364pDX-GN7qDf6z9r5Su84zTE0-hw&usqp=CAc.png",
+				"https://i.imgur.com/r6Tq4jU.jpeg",
+				"https://i.imgur.com/a9Jz3yN.jpeg"
+			],
+			"features": {
+				"processor": "Apple M4",
+				"ram": "8GB o 16GB",
+				"storage": "256GB, 512GB, 1TB, 2TB",
+				"display": "11\" o 13\" Ultra Retina XDR (OLED en tándem)",
+				"camera_rear": "12MP (wide) + 10MP (ultra-wide)",
+				"camera_front": "12MP (ultra-wide) con Center Stage",
+				"battery": "Hasta 10 horas de navegación web por Wi-Fi o reproducción de video"
+			}
+		},
+		{
+			"id": 16,
+			"name": "Samsung Galaxy Tab S9 Ultra",
+			"price": 9999,
+			"category": 3,
+			"images": [
+				"https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQLcUGlBspP_eKnsWzG5CgAc1aD1PEthUSbHN2ukloSMwsDNxsyxhZFk5CVjcNUXG5r042u_-iVuyDSdXdR4J4XBuDWxPdFwM6RlJg7U7MLoToDGYkxdz_93h6MGxuVfww6l2_Tig&usqp=CAc.png",
+				"https://i.imgur.com/K8jL2fW.jpeg",
+				"https://i.imgur.com/H1gT5qE.jpeg"
+			],
+			"features": {
+				"processor": "Qualcomm Snapdragon 8 Gen 2 for Galaxy",
+				"ram": "12GB o 16GB",
+				"storage": "256GB, 512GB, 1TB",
+				"display": "14.6\" Dynamic AMOLED 2X, 120Hz",
+				"camera_rear": "13MP (wide) + 8MP (ultra-wide)",
+				"camera_front": "12MP (wide) + 12MP (ultra-wide)",
+				"battery": "11200 mAh"
+			}
+		},
+		{
+			"id": 17,
+			"name": "Lenovo Tab P12",
+			"price": 2500,
+			"category": 3,
+			"images": [
+				"https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcQcWrbeFp9qn_qSBcItUYSXQiufYIXN9jWt5rE1wesOT0h6JQAGHTYl7r3L4agGV1mnJ_mbtfQbFYPrcufPEdxDwr4HJlw9ewCKIRnhHnFYm62IHeuKMpN0NOjlyWsFb2FsB6bjqek&usqp=CAc.png",
+				"https://i.imgur.com/zT8b5xU.jpeg",
+				"https://i.imgur.com/P4wQ1zK.jpeg"
+			],
+			"features": {
+				"processor": "MediaTek Dimensity 7050",
+				"ram": "8GB",
+				"storage": "128GB",
+				"display": "12.7\" LCD, 2944 x 1840",
+				"camera_rear": "8MP",
+				"camera_front": "13MP",
+				"battery": "10200 mAh"
+			}
+		},
+		{
+			"id": 18,
+			"name": "Samsung Galaxy Tab A9+",
+			"price": 1299,
+			"category": 3,
+			"images": [
+				"https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcQZYBEt1GtCcouIdPi_-YE_LTz_EjXpaPaX-8a-IKCY3RymDK6wmizY6Q3z60W2SKBeWyGdF9AAWOhg1dAiY9kDlBZ26XhLou_uJX4GUktvnUsHoh4PO5ebdlPTjMhUanHMMw2kdWI&usqp=CAc.png",
+				"https://i.imgur.com/dM2h7jQ.jpeg",
+				"https://i.imgur.com/aE5j4fX.jpeg"
+			],
+			"features": {
+				"processor": "Qualcomm Snapdragon 695",
+				"ram": "4GB o 8GB",
+				"storage": "64GB o 128GB",
+				"display": "11\" LCD, 90Hz",
+				"camera_rear": "8MP",
+				"camera_front": "5MP",
+				"battery": "7040 mAh"
+			}
+		},
+		{
+			"id": 19,
+			"name": "Lenovo Tab M11",
+			"price": 1699,
+			"category": 3,
+			"images": [
+				"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVIck_NW1PEnk2h7dzyXrkIf0dy6btdBVQfNKpYy89SPkrAHTGDm05-V-zdQXuwxprmD4&usqp=CAU.png",
+				"https://i.imgur.com/r7Yc5Uq.jpeg",
+				"https://i.imgur.com/zXnQ2Pz.jpeg"
+			],
+			"features": {
+				"processor": "MediaTek Helio G88",
+				"ram": "4GB",
+				"storage": "128GB",
+				"display": "11\" IPS LCD, 90Hz",
+				"camera_rear": "13MP",
+				"camera_front": "8MP",
+				"battery": "7040 mAh"
+			}
+		},
+		{
+			"id": 20,
+			"name": "MSI MAG 274UPF",
+			"price": 2799,
+			"category": 4,
+			"images": [
+				"https://asset.msi.com/resize/image/global/product/product_17201584381b3e330d6b3d7c0626c45b81f010ce96.png62405b38c58fe0f07fcef2367d8a9ba1/600.png",
+				"https://i.imgur.com/G35LwXg.jpeg",
+				"https://i.imgur.com/H1zQxP3.jpeg"
+			],
+			"features": {
+				"display": "27\" 4K UHD (3840 x 2160) IPS",
+				"refresh_rate": "144Hz",
+				"response_time": "1ms GtG",
+				"ports": "2x HDMI 2.1, 1x DisplayPort 1.4, 1x USB-C (DP Alt.)",
+				"features": "HDR 400, AMD FreeSync Premium Pro, KVM"
+			}
+		},
+		{
+			"id": 21,
+			"name": "ASUS ROG Swift PG27AQDM",
+			"price": 6499,
+			"category": 4,
+			"images": [
+				"https://images.kabum.com.br/produtos/fotos/518333/monitor-gamer-asus-rog-swift-pg27aqdm-27-oled-qhd-240-hz-0-03ms-g-sync-compatible-90lm08q0-b01ax0_1719934240_gg.jpg",
+				"https://i.imgur.com/M6q0n1w.jpeg",
+				"https://i.imgur.com/D4sT0x4.jpeg"
+			],
+			"features": {
+				"display": "27\" QHD (2560 x 1440) OLED",
+				"refresh_rate": "240Hz",
+				"response_time": "0.03ms GtG",
+				"ports": "1x DisplayPort 1.4, 2x HDMI 2.0",
+				"features": "NVIDIA G-Sync compatible, HDR10"
+			}
+		},
+		{
+			"id": 22,
+			"name": "Lenovo Legion R45w-30",
+			"price": 4999,
+			"category": 4,
+			"images": [
+				"https://p1-ofp.static.pub//medias/25895684375_R45w-30_202306301014011688575899955.png",
+				"https://i.imgur.com/M6q0n1w.jpeg",
+				"https://i.imgur.com/D4sT0x4.jpeg"
+			],
+			"features": {
+				"display": "44.5\" UWQHD+ (5120 x 1440) VA curvo",
+				"refresh_rate": "165Hz",
+				"response_time": "1ms MPRT",
+				"ports": "1x HDMI 2.1, 1x DisplayPort 1.4, 1x USB-C",
+				"features": "AMD FreeSync Premium Pro, HDR 400, KVM"
+			}
+		},
+		{
+			"id": 23,
+			"name": "MSI G244F",
+			"price": 1199,
+			"category": 4,
+			"images": [
+				"https://asset.msi.com/resize/image/global/product/product_1660006701569da6c178afb3caa5c269f4f293a618.png62405b38c58fe0f07fcef2367d8a9ba1/1024.png",
+				"https://i.imgur.com/K8r0w2q.jpeg",
+				"https://i.imgur.com/S9t0t2s.jpeg"
+			],
+			"features": {
+				"display": "23.8\" FHD (1920 x 1080) Rapid IPS",
+				"refresh_rate": "170Hz",
+				"response_time": "1ms GtG",
+				"ports": "2x HDMI 2.0b, 1x DisplayPort 1.2a",
+				"features": "G-Sync compatible, Night Vision"
+			}
+		},
+		{
+			"id": 24,
+			"name": "ASUS TUF Gaming VG27AQ",
+			"price": 2500,
+			"category": 4,
+			"images": [
+				"https://m.media-amazon.com/images/I/71L4fB4r8rL.jpg",
+				"https://i.imgur.com/R8q0w4u.jpeg",
+				"https://i.imgur.com/U9x0w5w.jpeg"
+			],
+			"features": {
+				"display": "27\" QHD (2560 x 1440) IPS",
+				"refresh_rate": "170Hz (overclock)",
+				"response_time": "1ms MPRT",
+				"ports": "2x HDMI (v2.0), 1x DisplayPort (v1.2)",
+				"features": "G-Sync compatible, ELMB Sync, HDR10"
+			}
+		}
+	],
+	"categories": [
+		{
+			"id": 0,
+			"name": "Notebooks"
+		},
+		{
+			"id": 1,
+			"name": "Desktops"
+		},
+		{
+			"id": 2,
+			"name": "Smartphones"
+		},
+		{
+			"id": 3,
+			"name": "Tablets"
+		},
+		{
+			"id": 4,
+			"name": "Monitores"
+		}
+	],
+	"clients": [
+		{
+			"id": 0,
+			"name": "John Doe",
+			"email": "",
+			"password": ""
+		}
+	],
+	"carts": [
+		{
+			"id": 0,
+			"client_id": 0,
+			"items": [
+				{
+					"product_id": 1,
+					"quantity": 1
+				},
+				{
+					"product_id": 5,
+					"quantity": 2
+				}
+			]
+		}
+	]
+}
