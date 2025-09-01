@@ -1,0 +1,37 @@
+.NavMobile {
+	width: 100vw;
+	height: 100vh;
+	background-color: #fff;
+	padding: 20px;
+	position: absolute;
+	overflow-y: auto;
+	z-index: 8;
+	transition: all 0.5s ease-in-out;
+	/*animation: NavMobileEnter 1s ease-in-out;*/
+}
+
+@keyframes NavMobileEnter {
+	from {
+		left: -100vw;
+	}
+	to {
+		left: 0px;
+	}
+}
+
+.NavMobile div h1 {
+	font-weight: 450;
+	font-size: 28px;
+	color: #374856;
+}
+
+.NavMobile a {
+	font-size: 22px;
+	color: #000;
+}
+
+.NavMobile li {
+	padding: 10px 0;
+	margin: 10px 0;
+	border-bottom: 1px solid #374856;
+}

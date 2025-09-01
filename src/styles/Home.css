@@ -1,0 +1,50 @@
+.headerIMG {
+	width: calc(100vw - 15px);
+	max-height: 70vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	overflow: hidden;
+}
+.headerIMG img {
+	width: 100vw;
+}
+
+@media screen and (max-width: 768px) {
+	.headerIMG {
+		width: 100vw;
+		height: auto;
+	}
+}
+
+.homeBody {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	width: 100%;
+	padding: 50px;
+}
+.homeBody .card {
+	display: flex;
+	flex-direction: column;
+	max-width: 384px;
+	gap: 20px;
+	border-radius: 24px;
+	margin-bottom: 50px;
+	box-shadow: 0 2px 5px #0000001a;
+}
+.homeBody .card h2 {
+	margin-left: 20px;
+}
+.homeBody .card p {
+	padding: 20px;
+}
+.homeIMGC {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 24px 24px 0 0;
+	width: 384px;
+	height: 241px;
+	overflow: hidden;
+}

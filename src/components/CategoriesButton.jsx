@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const CategoriesButton = ({category}) => {
 
     var icon = [
@@ -8,14 +10,13 @@ const CategoriesButton = ({category}) => {
         'fi fi-rr-screen',
     ]
     
-    
     return (
-        <div style={{display: 'inline-block', textAlign: 'center', marginRight: '20px'}}>
+        <Link to={`/products/${category.name}&cat=${category.id}`} style={{display: 'inline-block', textAlign: 'center', marginRight: '20px'}}>
             <button className="categoryButton">
                 <i className={icon[category.id]}></i>
             </button><br /><br />
-            <span>{category.name}</span>
-        </div>
+            <span style={{color: "#000"}}>{category.name}</span>
+        </Link>
     );
 }
 

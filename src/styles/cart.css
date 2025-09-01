@@ -1,0 +1,52 @@
+.cartHeader {
+	display: flex;
+	justify-content: space-between;
+	align-items: end;
+	padding: 30px;
+	padding-right: 30vw;
+}
+
+.cardContainer {
+	display: flex;
+	justify-content: center;
+	gap: 3.2vw;
+	width: 100%;
+	padding-bottom: 64px;
+}
+
+.purchase {
+	height: 48px;
+	width: 100%;
+	background-color: var(--lenovo-color);
+	font-size: 18px;
+	color: #fff;
+}
+
+.itemContainer {
+	display: flex;
+	flex-direction: column;
+	width: 65vw;
+	height: 480px;
+	overflow: auto;
+	padding: 5px;
+	gap: 20px;
+}
+.completePurchase {
+	display: flex;
+	flex-direction: column;
+	width: 25vw;
+	height: 480px;
+	background-color: #fff;
+	border: 1px solid #d9d9d9;
+	border-radius: 12px;
+	gap: 35px;
+	box-shadow: 0 0 5px #0000003b;
+	padding: 20px;
+}
+
+@media screen and (max-width: 768px) {
+	.cardContainer {
+		display: flex;
+		flex-direction: column;
+	}
+}

@@ -1,0 +1,18 @@
+.userPage {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 80vh;
+}
+.userPage div {
+	width: 50vw;
+	height: 90%;
+	border-radius: 12px;
+	box-shadow: 0 0 5px #00000048;
+}
+
+@media screen and (max-width: 768px) {
+	.userPage div {
+		width: 90vw;
+	}
+}

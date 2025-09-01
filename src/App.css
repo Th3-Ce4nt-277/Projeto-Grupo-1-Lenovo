@@ -15,6 +15,11 @@
 	--def-transition: all 0.3s ease;
 }
 
+input[type='number']::-webkit-outer-spin-button,
+input[type='number']::-webkit-inner-spin-button {
+	-webkit-appearance: none;
+	margin: 0;
+}
 button {
 	cursor: pointer;
 	border: none;
@@ -22,7 +27,6 @@ button {
 }
 
 .App {
-	max-width: 100vw;
 	max-width: 100vw;
 }
 
@@ -69,7 +73,7 @@ i {
 	color: #374856;
 	transition: var(--def-transition);
 }
-i:hover {
+header i:hover {
 	color: var(--lenovo-color);
 }
 
@@ -121,84 +125,20 @@ i:hover {
 	opacity: 1;
 }
 
-/*		*/
-.cart {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	height: calc(100vh - 132px);
-}
-.cartItems {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	padding: 0 40px;
-	width: 75vw;
-	height: 100%;
-}
-.cartItems .header {
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
-	width: 100%;
-	height: 100px;
-	border-bottom: 2px solid #ccc;
-}
-
-.cartOrder {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: space-between;
-	padding: 0 30px;
-	background-color: #eeeeee;
-	width: 25vw;
-	height: 100%;
-}
-
-.cartOrder h2 {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	width: 100%;
-	height: 100px;
-	border-bottom: 2px solid #ccc;
-}
-
-.cartOrder section {
-	display: flex;
-	justify-content: space-between;
-	width: 100%;
-	margin: 15px 0;
-}
-.txtPromo {
-	height: 48px;
-	border: none;
-	padding: 20px;
-	margin-top: 10px;
-	font-size: 15px;
-}
-
-.btnBuy {
-	background-color: var(--lenovo-color);
-	color: #fff;
-	padding: 15px;
-	font-weight: 600;
-	text-align: center;
-	font-size: 16px;
-	width: 100%;
-	margin-bottom: 30px;
-	transition: var(--def-transition);
-}
-
-#menuBurguer {
+.header-mobile i {
 	display: none;
 	cursor: pointer;
 }
 
 @media screen and (max-width: 768px) {
-	#menuBurguer {
-		display: block;
+	.header-mobile i {
+		display: flex;
+	}
+	.header-mobile {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		width: 100%;
 	}
 	.header-divisor {
 		flex-direction: column;
@@ -215,6 +155,16 @@ i:hover {
 	.header-btn-actions {
 		display: none;
 	}
+
+	.account {
+		flex-direction: column;
+	}
+	.account form {
+		width: 100vw !important;
+	}
+	.account .account-image {
+		width: 100vw !important;
+	}
 }
 
 .productContainer {
@@ -224,7 +174,7 @@ i:hover {
 	gap: 20px;
 	padding: 20px;
 	width: 100%;
-	background-color: #f1f1f1;
+	min-height: 70vh;
 }
 
 .categoriesContainer {
@@ -245,13 +195,12 @@ i:hover {
 
 /*
 
-		--- IGNORE ---
+		
 
 */
 
 .account {
 	display: flex;
-	height: calc(100vh - 132px);
 	overflow: hidden;
 	box-sizing: border-box;
 }
@@ -260,6 +209,7 @@ i:hover {
 	flex-direction: column;
 	width: 50vw;
 	padding: 5% 12%;
+	height: calc(100vh - 132px);
 }
 .account form div {
 	position: relative;
@@ -276,7 +226,7 @@ i:hover {
 	color: #757575;
 }
 .account form input {
-	width: 388px;
+	width: 100%;
 	height: 48px;
 	padding-left: 48px;
 	font-weight: 500;

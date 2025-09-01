@@ -1,0 +1,121 @@
+.details-container {
+	display: grid;
+	grid-template-columns: 45vw calc(55vw - 20px);
+	grid-template-rows: 60vh 15vh;
+	grid-template-areas: 'img info' 'imgRow info';
+	width: 100%;
+	height: 75vh;
+	background-color: #f1f1f1;
+	overflow-y: hidden;
+}
+.imgsContainer {
+	width: 100%;
+	height: 100%;
+	grid-area: img;
+	background-color: #fff;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	overflow: hidden;
+}
+.imgsContainer img {
+	height: 100%;
+}
+.imgRow {
+	display: flex;
+	gap: 3px;
+	background-color: #e3e3e3;
+	height: 100%;
+}
+.imgRow div {
+	width: 112.55px;
+	height: 112.55px;
+	background-color: #0000002a;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.imgRow div i {
+	font-size: 40px;
+}
+.detailsInfo {
+	width: 100%;
+	padding: 20px;
+	grid-area: info;
+}
+
+.priceContainer {
+	margin: 30px 0;
+	border: 3px solid #b7b7b7ff;
+	padding: 20px 0;
+	border-width: 2px 0;
+}
+.detailsInfo h2 {
+	font-weight: 500;
+}
+.addToCart {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 32px;
+	padding: 20px;
+	gap: 10px;
+	color: #fff;
+	font-size: 18px;
+	margin-top: 40px;
+	border-radius: 8px;
+	background-color: var(--lenovo-color);
+}
+.addToCart i {
+	color: #fff;
+	font-size: 18px;
+}
+.otherProducts {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	padding: 20px;
+	width: 100%;
+	min-height: 35vh;
+	background-color: #fff;
+}
+
+@media screen and (max-width: 768px) {
+	.imgsContainer {
+		height: 25vh;
+	}
+	.imgRow {
+		width: 100vw;
+		height: 64px;
+	}
+	.imgRow div {
+		width: 64px;
+		height: 64px;
+	}
+
+	.priceContainer {
+		margin: 0;
+		margin-bottom: 30px;
+		padding: 0;
+		border: none;
+	}
+	.priceContainer h2 {
+		font-size: 18px;
+	}
+
+	.details-container {
+		display: block;
+		height: auto;
+	}
+
+	.addToCart {
+		justify-content: center;
+		gap: 20px;
+		width: 100%;
+	}
+
+	h1 {
+		font-size: 20px;
+	}
+}

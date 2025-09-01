@@ -1,0 +1,109 @@
+.cartItem {
+	display: flex;
+	width: 100%;
+	min-height: 118px;
+	background-color: #fff;
+	border: 1px solid #d9d9d9;
+	border-radius: 12px;
+	box-shadow: 0 0 5px #0000003b;
+	padding: 10px;
+	gap: 10px;
+	overflow: hidden;
+}
+.cartItem h3 {
+	display: flex;
+	flex-direction: column;
+	align-items: start;
+	justify-content: space-between;
+	width: 50%;
+	font-weight: 400;
+	color: #374856;
+}
+.cartItem h3 button {
+	padding: 5px 10px;
+	font-weight: 600;
+	border: 2px solid var(--lenovo-color);
+	border-radius: 8px;
+	color: var(--lenovo-color);
+	transition: var(--def-transition);
+}
+.cartItem h3 button:hover {
+	background-color: var(--lenovo-color);
+	color: #fff;
+}
+.itemIMG {
+	display: flex;
+	justify-content: center;
+	min-width: 160px;
+	height: 96px;
+	border-radius: 2px;
+	border: 1px solid #d9d9d9;
+}
+.itemIMG img {
+	height: 100%;
+}
+
+.itemPrice {
+	width: 20% !important;
+	justify-content: center !important;
+	color: #007d13 !important;
+}
+
+.countContainer {
+	display: flex;
+	align-items: center;
+	width: 20%;
+	height: 96px;
+	margin: 0 10px;
+}
+.countContainer input {
+	width: 48px;
+	height: 28px;
+	text-align: center;
+	border: 1px solid var(--lenovo-color);
+	border-width: 2px 0;
+}
+.countContainer button {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 28px;
+	height: 28px;
+	text-align: center;
+	border: 2px solid var(--lenovo-color);
+}
+.countContainer button:hover {
+	background-color: var(--lenovo-color);
+}
+
+.countContainer button i {
+	font-size: 22px;
+	color: var(--lenovo-color);
+}
+.countContainer button:hover i {
+	color: #fff;
+}
+
+.itemDelete {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 32px;
+	height: 32px;
+	border-radius: 32px;
+	border: 2px solid var(--lenovo-color);
+}
+
+.itemDelete i {
+	font-size: 18px;
+	color: var(--lenovo-color);
+}
+
+.itemDelete:hover {
+	background-color: var(--lenovo-color);
+}
+
+.itemDelete:hover i {
+	font-size: 18px;
+	color: #fff;
+}
